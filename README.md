@@ -1,7 +1,4 @@
-# ansible-boilerplate
-
-This repo is a boilerplate for getting started for repos containing Ansible
-playbooks. `git clone` this project and be on your merry way.
+# ansible
 
 ## Prerequisites
 
@@ -20,9 +17,6 @@ If you want to use pipenv, you can skip this step
 ## Getting started
 
 ### Git clone
-
-- `git clone --depth=1 --branch=master https://github.com/mikechau/ansible-boilerplate.git` - clone the latest copy of the repo
-- `cd ansible-boilerplate && git remote rm origin` - remove the origin
 
 #### Initialize the project (if you use pipenv)
 
