@@ -1,0 +1,8 @@
+---
+- name: initial setup
+  hosts: all
+  tasks:
+    - name: fish
+      apt:
+        name: "fish=={{fish_version}}"
+        state: fixed
