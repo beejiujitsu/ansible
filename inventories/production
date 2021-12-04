@@ -1,0 +1,13 @@
+# inventories/production
+[kubernetes]
+allanon.local
+macmini.local
+rpi4-2gb.local
+rpi4-4gb.local
+
+[logging]
+zero2w2.local
+
+[production:children]
+logging
+kubernetes
